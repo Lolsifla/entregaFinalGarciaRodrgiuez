@@ -155,36 +155,62 @@ footer{
 
   .card-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
-    gap: 20px; /* Espacio entre las tarjetas */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
   }
   
   .card.section1 {
-    justify-self: end; /* Alinea la primera tarjeta a la izquierda */
+    justify-self: end; 
   }
   
   .card.section2 {
-    justify-self: start; /* Alinea la segunda tarjeta a la derecha */
+    justify-self: start; 
   }
   
   .card.section3 {
-    justify-self: end; /* Alinea la tercera tarjeta a la izquierda */
+    justify-self: end; 
   }
   
   .card.section4 {
-    justify-self: start; /* Alinea la cuarta tarjeta a la derecha */
+    justify-self: start; 
   }
   
   .card {
-    width: 100%; /* Hace que las tarjetas ocupen todo el ancho disponible de su celda */
-    margin: 0; /* Elimina márgenes externos */
-    padding: 0; /* Elimina padding adicional */
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
   }
   
   .card-img-top {
-    width: 100%; /* Hace que la imagen ocupe todo el ancho de la tarjeta */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 100%; 
+    height: auto; 
   }
+
+  .form-container {
+    border-radius: 20px; 
+    border: 2px solid black;
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 100%; 
+    max-width: 500px; 
+    margin: 0 auto; 
+    
+  }
+  
+  .form-control, .btn {
+    border: 2px solid black;
+    background-color: violet;
+    border: 0;
+    border-radius: 10px; 
+  }
+  
+  iframe {
+    border: 0;
+    border-radius: 50%; /* Hace el borde circular */
+  }
+
   
   
   
